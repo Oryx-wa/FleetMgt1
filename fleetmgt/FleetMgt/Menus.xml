@@ -1,0 +1,26 @@
+<Application>
+	<Menus>
+		<action type="remove">
+			<Menu UniqueID="FLTMGT"/>
+		</action>
+	</Menus>
+	<Menus>
+		<action type="add">
+			<Menu Checked="0" Enabled="1" FatherUID="43520" String="Fleet Management" Type="2" UniqueID="FLTMGT" position="13" Image="">
+				<Menus>
+					<action type="add">
+						<Menu Checked="0" Enabled="1" FatherUID="FLTMGT" String="Configuration" Type="1" UniqueID="FleetMgt.FleetSetupScreen"/>
+						<Menu Checked="0" Enabled="1" FatherUID="FLTMGT" String="Vehicle Master Record" Type="1" UniqueID="FleetMgt.Vehicle"/>
+						<Menu Checked="0" Enabled="1" FatherUID="FLTMGT" String="Equipment Master Record" Type="1" UniqueID="FleetMgt.Equipment"/>
+						<Menu Checked="0" Enabled="1" FatherUID="FLTMGT" String="Work Order" Type="1" UniqueID="FleetMgt.WorkOrder"/>
+						<Menu Checked="0" Enabled="1" FatherUID="FLTMGT" String="Work Order List" Type="1" UniqueID="FleetMgt.WorkOrderList"/>
+						<Menu Checked="0" Enabled="1" FatherUID="FLTMGT" String="Prev Maintenance Schedule" Type="1" UniqueID="FleetMgt.MtceShedule"/>
+						<!--<Menu Checked="0" Enabled="1" FatherUID="FLTMGT" String="Fuel Fill Up" Type="1" UniqueID="FleetMgt.FuelEntry"/>-->
+						<Menu Checked="0" Enabled="1" FatherUID="FLTMGT" String="Services" Type="1" UniqueID="FleetMgt.Services"/>
+						<Menu Checked="0" Enabled="1" FatherUID="FLTMGT" String="Spare Parts" Type="1" UniqueID="FleetMgt.SparePart"/>
+					</action>
+				</Menus>
+			</Menu>
+		</action>
+	</Menus>
+</Application>

@@ -1,0 +1,2427 @@
+﻿<Tables>
+	<usertable>
+		<TableName>OHEM</TableName>
+		<TableDescription>OHEM</TableDescription>
+		<Tabletype>0</Tabletype>
+		<Secondary>-1</Secondary>
+		<Created>Y</Created>
+		<UseSequence>0</UseSequence>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>dispay</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Discontinue Pay?</Description>
+			<DefaultValue>N</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>0</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>1</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>coscen</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Cost Centre</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>xcode</Name>
+			<Type>0</Type>
+			<Size>20</Size>
+			<Description>Alternative Code</Description>
+			<EditSize>20</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>staffcat</Name>
+			<Type>0</Type>
+			<Size>20</Size>
+			<Description>Staff Category</Description>
+			<DefaultValue>Junior</DefaultValue>
+			<EditSize>20</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>3</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Junior</Value>
+				<Description>Junior Staff</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>3</FieldID>
+				<IndexID>1</IndexID>
+				<Value>Senior</Value>
+				<Description>Senior Staff</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>4</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>Project</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Project Code</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>5</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>PFACode</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>PFA Code</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>6</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>PensionNo</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Pension Number</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>7</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>TaxId</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Tax Number</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>8</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>Taxable</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Taxable?</Description>
+			<DefaultValue>Y</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>8</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>8</FieldID>
+				<IndexID>1</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>9</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>NumofRel</Name>
+			<Type>2</Type>
+			<Size>11</Size>
+			<Description>Number of Relatives</Description>
+			<EditSize>11</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>10</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>emptype</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Employment Type</Description>
+			<DefaultValue>P</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>10</FieldID>
+				<IndexID>0</IndexID>
+				<Value>P</Value>
+				<Description>Permanent</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>10</FieldID>
+				<IndexID>1</IndexID>
+				<Value>T</Value>
+				<Description>Temporary</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>11</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>CardCode</Name>
+			<Type>0</Type>
+			<Size>15</Size>
+			<Description>Business Partner Code</Description>
+			<EditSize>15</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>12</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>fltEmpType</Name>
+			<Type>0</Type>
+			<Size>20</Size>
+			<Description>Fleet Employee Type</Description>
+			<EditSize>20</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>12</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Mechanic</Value>
+				<Description>Mechanic</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>12</FieldID>
+				<IndexID>1</IndexID>
+				<Value>Driver</Value>
+				<Description>Driver</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>12</FieldID>
+				<IndexID>2</IndexID>
+				<Value>Electrician</Value>
+				<Description>Electrican</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>12</FieldID>
+				<IndexID>3</IndexID>
+				<Value>Clerk</Value>
+				<Description>Clerk</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OHEM</TableName>
+				<FieldID>12</FieldID>
+				<IndexID>4</IndexID>
+				<Value>Others</Value>
+				<Description>Others</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>13</FieldID>
+			<TableName>OHEM</TableName>
+			<Name>Password</Name>
+			<Type>0</Type>
+			<Size>50</Size>
+			<Description>Password</Description>
+			<EditSize>50</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMFLEET</TableName>
+		<TableDescription>Fleet Master Data</TableDescription>
+		<Tabletype>1</Tabletype>
+		<Secondary>1</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<UserObjects>
+			<CanCancel>Y</CanCancel>
+			<CanClose>N</CanClose>
+			<CanCreateDefaultForm>Y</CanCreateDefaultForm>
+			<CanDelete>Y</CanDelete>
+			<CanFind>Y</CanFind>
+			<CanLog>N</CanLog>
+			<LogTableName />
+			<CanYearTransfer>N</CanYearTransfer>
+			<ManageSeries>N</ManageSeries>
+			<Code>OWAFLEET</Code>
+			<Name>Fleet Master Data</Name>
+			<ObjectType>1</ObjectType>
+			<TableName>OWA_FMFLEET</TableName>
+			<Created>N</Created>
+			<UseSequence>0</UseSequence>
+			<UserObjectsChild>
+				<Code>OWAFLEET</Code>
+				<TableName>OWA_FMTIRETRACK</TableName>
+				<LogName />
+				<SonName>OWA_FMTIRETRACK</SonName>
+			</UserObjectsChild>
+			<UserObjectsChild>
+				<Code>OWAFLEET</Code>
+				<TableName>OWA_FMFLEETMTCLINES</TableName>
+				<LogName />
+				<SonName>OWA_FMFLEETMTCLINES</SonName>
+			</UserObjectsChild>
+		</UserObjects>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>FleetType</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Fleet Type</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Make</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Make</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Model</Name>
+			<Type>0</Type>
+			<Size>100</Size>
+			<Description>Model</Description>
+			<EditSize>100</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>4</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Year</Name>
+			<Type>0</Type>
+			<Size>4</Size>
+			<Description>Year Manufactured</Description>
+			<EditSize>4</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>5</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Colour</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Colour</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>6</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>VIN</Name>
+			<Type>0</Type>
+			<Size>20</Size>
+			<Description>VIN#</Description>
+			<EditSize>20</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>7</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>GrpCode</Name>
+			<Type>0</Type>
+			<Size>8</Size>
+			<Description>Vehicle Group</Description>
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>8</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>FuelType</Name>
+			<Type>0</Type>
+			<Size>20</Size>
+			<Description>Fuel Type</Description>
+			<EditSize>20</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>9</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>OdoType</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Odometer Type</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>10</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Dept</Name>
+			<Type>0</Type>
+			<Size>8</Size>
+			<Description>Department</Description>
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>11</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>AcqMethod</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Acquisition Method</Description>
+			<DefaultValue>P</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>11</FieldID>
+				<IndexID>0</IndexID>
+				<Value>P</Value>
+				<Description>Purchased</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>11</FieldID>
+				<IndexID>1</IndexID>
+				<Value>L</Value>
+				<Description>Leased</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>12</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>AcqDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Acquisition Date</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>13</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>OdoOnAcq</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Odometer on Acquisition</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>14</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Vendor</Name>
+			<Type>0</Type>
+			<Size>15</Size>
+			<Description>Acquired From</Description>
+			<EditSize>15</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>15</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>AcqCost</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Acquisition Cost</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>S</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>16</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>WarrantyExpdOn</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Warranty Expiry Date</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>17</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>AcqNotes</Name>
+			<Type>1</Type>
+			<Size>8</Size>
+			<Description>Acquisition Note</Description>
+			<DefaultValue />
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>18</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>RegNo</Name>
+			<Type>0</Type>
+			<Size>20</Size>
+			<Description>Registration #</Description>
+			<EditSize>20</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>19</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>RegDue</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Registration Renewal Date</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>20</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>License</Name>
+			<Type>0</Type>
+			<Size>20</Size>
+			<Description>License#</Description>
+			<EditSize>20</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>21</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>LicenseDue</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>License Due</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>22</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>LicenseNotes</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>License Notes</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>23</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>LastMtceRef</Name>
+			<Type>0</Type>
+			<Size>100</Size>
+			<Description>Last Maintenance Ref</Description>
+			<EditSize>100</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>24</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>LastMtceDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Last Maintenance Date</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>25</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>NextMtceDue</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description />
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>26</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>MtceAlertDue</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Mtce Alert Due</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>27</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>MtceAlertFreq</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Mtce Alert Freq</Description>
+			<DefaultValue>D</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>27</FieldID>
+				<IndexID>0</IndexID>
+				<Value>D</Value>
+				<Description>Day</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>27</FieldID>
+				<IndexID>1</IndexID>
+				<Value>W</Value>
+				<Description>Week</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>27</FieldID>
+				<IndexID>2</IndexID>
+				<Value>M</Value>
+				<Description>Month</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>28</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Photo</Name>
+			<Type>0</Type>
+			<Size>200</Size>
+			<Description>Photo</Description>
+			<DefaultValue />
+			<EditSize>200</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>I</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>29</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>PhotoFile</Name>
+			<Type>0</Type>
+			<Size>100</Size>
+			<Description>Photo File</Description>
+			<EditSize>100</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>30</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Insurer</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Insurer</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>31</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>InsurerCoy</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Insurer Company</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>32</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>InsuranceNotes</Name>
+			<Type>1</Type>
+			<Size>8</Size>
+			<Description>Insurarnce Notes</Description>
+			<DefaultValue />
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>33</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>InsuredDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Insured Date</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>34</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>InsurExpdDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Insurance Expiry Date</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>35</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>InsurAlert</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Insurance Alert</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>36</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Active</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Active?</Description>
+			<DefaultValue>Y</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>36</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>36</FieldID>
+				<IndexID>1</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>37</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>OnTrip</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>On Trip?</Description>
+			<DefaultValue>N</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>37</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>37</FieldID>
+				<IndexID>1</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>38</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Warranty</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>On Warranty?</Description>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>38</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>38</FieldID>
+				<IndexID>1</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>39</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>LocationCode</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Location</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>40</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Category</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Category</Description>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>40</FieldID>
+				<IndexID>0</IndexID>
+				<Value>V</Value>
+				<Description>Vehicle</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFLEET</TableName>
+				<FieldID>40</FieldID>
+				<IndexID>1</IndexID>
+				<Value>E</Value>
+				<Description>Equipment</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>41</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>CostCentre</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Cost Centre</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>42</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Asset</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Asset Code</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>43</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Project</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Project</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>44</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>PrevMtceSch</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Prev. Mtce Sched</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>45</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>Description</Name>
+			<Type>0</Type>
+			<Size>250</Size>
+			<Description>Description</Description>
+			<EditSize>250</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>46</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>DriverName</Name>
+			<Type>0</Type>
+			<Size>100</Size>
+			<Description>Driver Name</Description>
+			<EditSize>100</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>47</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>DriverID</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Default Driver</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>48</FieldID>
+			<TableName>OWA_FMFLEET</TableName>
+			<Name>drv</Name>
+			<Type>2</Type>
+			<Size>11</Size>
+			<Description>Default Driver</Description>
+			<EditSize>11</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMFLEETMTCLINES</TableName>
+		<TableDescription>Fleet Maintenance Lines</TableDescription>
+		<Tabletype>2</Tabletype>
+		<Secondary>2</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMFLEETMTCLINES</TableName>
+			<Name>PrevMtcShed</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Mtce Sched Code</Description>
+			<EditSize>30</EditSize>
+			<LinkedTable>OWA_FMMTCESHEDHDR</LinkedTable>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OWA_FMFLEETMTCLINES</TableName>
+			<Name>ServiceCode</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Service Code</Description>
+			<EditSize>30</EditSize>
+			<LinkedTable>OWA_FMSERVICES</LinkedTable>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMFLEETMTCLINES</TableName>
+			<Name>SvrDesc</Name>
+			<Type>0</Type>
+			<Size>100</Size>
+			<Description>Service Desc</Description>
+			<EditSize>100</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OWA_FMFLEETMTCLINES</TableName>
+			<Name>LastMtceDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Last Mtce Date</Description>
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>4</FieldID>
+			<TableName>OWA_FMFLEETMTCLINES</TableName>
+			<Name>NextMtceDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Next Mtce Date</Description>
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>5</FieldID>
+			<TableName>OWA_FMFLEETMTCLINES</TableName>
+			<Name>MtceFreq</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Mtce Freq</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>R</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>6</FieldID>
+			<TableName>OWA_FMFLEETMTCLINES</TableName>
+			<Name>LastOdoMeter</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Last Odometer</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>R</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>7</FieldID>
+			<TableName>OWA_FMFLEETMTCLINES</TableName>
+			<Name>NextOdoMeter</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Next Odometer</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>R</EditType>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMFLEETTYPE</TableName>
+		<TableDescription>Fleet Type</TableDescription>
+		<Tabletype>0</Tabletype>
+		<Secondary>0</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMFLEETTYPE</TableName>
+			<Name>Category</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Category</Description>
+			<DefaultValue>E</DefaultValue>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMFLEETTYPE</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>0</IndexID>
+				<Value>E</Value>
+				<Description>Equipment</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFLEETTYPE</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>1</IndexID>
+				<Value>V</Value>
+				<Description>Vehicle</Description>
+			</ValidValues>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMFUELFILL</TableName>
+		<TableDescription>Fleet Fuel FIll Up</TableDescription>
+		<Tabletype>3</Tabletype>
+		<Secondary>1</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<UserObjects>
+			<CanCancel>Y</CanCancel>
+			<CanClose>Y</CanClose>
+			<CanCreateDefaultForm>N</CanCreateDefaultForm>
+			<CanDelete>Y</CanDelete>
+			<CanFind>Y</CanFind>
+			<CanLog>N</CanLog>
+			<LogTableName />
+			<CanYearTransfer>N</CanYearTransfer>
+			<ManageSeries>Y</ManageSeries>
+			<Code>FMFUELFILL</Code>
+			<Name>Vehicle Fuel Fill Up</Name>
+			<ObjectType>3</ObjectType>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Created>N</Created>
+			<UseSequence>0</UseSequence>
+		</UserObjects>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>VehicleID</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Vehicle ID</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>VendorID</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Vendor ID</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>EmplyeeID</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Employee ID</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>PurchDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Purchase Date</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>4</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>InvoiceNo</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Invoice #</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>5</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>FuelType</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Fuel Type</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMFUELFILL</TableName>
+				<FieldID>5</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Diesel</Value>
+				<Description>Diesel</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFUELFILL</TableName>
+				<FieldID>5</FieldID>
+				<IndexID>1</IndexID>
+				<Value>Petrol</Value>
+				<Description>Petrol</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFUELFILL</TableName>
+				<FieldID>5</FieldID>
+				<IndexID>2</IndexID>
+				<Value>Gas</Value>
+				<Description>Gas</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>6</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>PrevOdom</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Prev Odometer</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>7</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>CurrOdom</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Current Odometer</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>8</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>OverrideOdom</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Override Prev Meter?</Description>
+			<DefaultValue>N</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMFUELFILL</TableName>
+				<FieldID>8</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFUELFILL</TableName>
+				<FieldID>8</FieldID>
+				<IndexID>1</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>9</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>FuelQty</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Fuel Qty Purch</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>10</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>Price</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Price Per Qty</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>P</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>11</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>Amount</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Amount</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>S</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>12</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>OilQty</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Oil Qty Purch</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>13</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>OilPrice</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Oil Price Per Qty</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>P</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>14</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>OilAmount</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Oil Amount</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>S</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>15</FieldID>
+			<TableName>OWA_FMFUELFILL</TableName>
+			<Name>Post</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Post Transaction?</Description>
+			<DefaultValue>N</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMFUELFILL</TableName>
+				<FieldID>15</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMFUELFILL</TableName>
+				<FieldID>15</FieldID>
+				<IndexID>1</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMLOCATION</TableName>
+		<TableDescription>Fleet Location</TableDescription>
+		<Tabletype>0</Tabletype>
+		<Secondary>0</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMMTCESHEDDET</TableName>
+		<TableDescription>Fleet Maintenance Shed Detail</TableDescription>
+		<Tabletype>2</Tabletype>
+		<Secondary>2</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMMTCESHEDDET</TableName>
+			<Name>SvrCode</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Service Code</Description>
+			<EditSize>30</EditSize>
+			<LinkedTable>OWA_FMSERVICES</LinkedTable>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OWA_FMMTCESHEDDET</TableName>
+			<Name>SvrDesc</Name>
+			<Type>0</Type>
+			<Size>100</Size>
+			<Description>Description</Description>
+			<EditSize>100</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMMTCESHEDDET</TableName>
+			<Name>MtceIntervalDays</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Mtce Interval (Days)</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>R</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OWA_FMMTCESHEDDET</TableName>
+			<Name>MtceIntervalMeter</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Mtce Interval (Odometer)</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>R</EditType>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMMTCESHEDHDR</TableName>
+		<TableDescription>Fleet Maintainanc Sched Header</TableDescription>
+		<Tabletype>1</Tabletype>
+		<Secondary>1</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<UserObjects>
+			<CanCancel>Y</CanCancel>
+			<CanClose>N</CanClose>
+			<CanCreateDefaultForm>N</CanCreateDefaultForm>
+			<CanDelete>Y</CanDelete>
+			<CanFind>Y</CanFind>
+			<CanLog>N</CanLog>
+			<LogTableName />
+			<CanYearTransfer>N</CanYearTransfer>
+			<ManageSeries>N</ManageSeries>
+			<Code>FMMTCSHED</Code>
+			<Name>Preventive Maintanance Schedule</Name>
+			<ObjectType>1</ObjectType>
+			<TableName>OWA_FMMTCESHEDHDR</TableName>
+			<Created>N</Created>
+			<UseSequence>0</UseSequence>
+			<UserObjectsChild>
+				<Code>FMMTCSHED</Code>
+				<TableName>OWA_FMMTCESHEDDET</TableName>
+				<LogName />
+				<SonName>OWA_FMMTCESHEDDET</SonName>
+			</UserObjectsChild>
+		</UserObjects>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMMTCESHEDHDR</TableName>
+			<Name>TrackByDat</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Track By Date?</Description>
+			<DefaultValue>N</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMMTCESHEDHDR</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMMTCESHEDHDR</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>1</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OWA_FMMTCESHEDHDR</TableName>
+			<Name>TrackByMet</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Track By Meter?</Description>
+			<DefaultValue>N</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMMTCESHEDHDR</TableName>
+				<FieldID>1</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMMTCESHEDHDR</TableName>
+				<FieldID>1</FieldID>
+				<IndexID>1</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMMTCESHEDHDR</TableName>
+			<Name>OdoType</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Odometer Type</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMSERVICES</TableName>
+		<TableDescription>Fleet Service Codes</TableDescription>
+		<Tabletype>1</Tabletype>
+		<Secondary>1</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<UserObjects>
+			<CanCancel>Y</CanCancel>
+			<CanClose>N</CanClose>
+			<CanCreateDefaultForm>N</CanCreateDefaultForm>
+			<CanDelete>Y</CanDelete>
+			<CanFind>Y</CanFind>
+			<CanLog>N</CanLog>
+			<LogTableName />
+			<CanYearTransfer>N</CanYearTransfer>
+			<ManageSeries>N</ManageSeries>
+			<Code>OWA_FMSERVICES</Code>
+			<Name>Fleet Services</Name>
+			<ObjectType>1</ObjectType>
+			<TableName>OWA_FMSERVICES</TableName>
+			<Created>N</Created>
+			<UseSequence>0</UseSequence>
+		</UserObjects>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMSERVICES</TableName>
+			<Name>PM</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Preventive Mtce?</Description>
+			<DefaultValue>N</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMSERVICES</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMSERVICES</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>1</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OWA_FMSERVICES</TableName>
+			<Name>Active</Name>
+			<Type>0</Type>
+			<Size>1</Size>
+			<Description>Active</Description>
+			<DefaultValue>Y</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMSERVICES</TableName>
+				<FieldID>1</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Y</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMSERVICES</TableName>
+				<FieldID>1</FieldID>
+				<IndexID>1</IndexID>
+				<Value>N</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMSERVICES</TableName>
+			<Name>MtceIntervalDays</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Mtce Interval Days</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OWA_FMSERVICES</TableName>
+			<Name>MtceIntervalMeter</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Mtce Interval Meter</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>4</FieldID>
+			<TableName>OWA_FMSERVICES</TableName>
+			<Name>Comment</Name>
+			<Type>1</Type>
+			<Size>8</Size>
+			<Description>Comments</Description>
+			<DefaultValue />
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMSETUP</TableName>
+		<TableDescription>Fleet Setup Screen</TableDescription>
+		<Tabletype>0</Tabletype>
+		<Secondary>0</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMSETUP</TableName>
+			<Name>DimCode</Name>
+			<Type>2</Type>
+			<Size>11</Size>
+			<Description>Cost Dimension Used</Description>
+			<EditSize>11</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OWA_FMSETUP</TableName>
+			<Name>SvrTimUOM</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Service Time Unit of Measure</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMSETUP</TableName>
+			<Name>SvrMetUOM</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Service Meter Unit of Measure</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OWA_FMSETUP</TableName>
+			<Name>NoOfMtceDue</Name>
+			<Type>2</Type>
+			<Size>11</Size>
+			<Description>No of Mtce Due</Description>
+			<DefaultValue>0</DefaultValue>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>4</FieldID>
+			<TableName>OWA_FMSETUP</TableName>
+			<Name>NoOfMtceDue2Day</Name>
+			<Type>2</Type>
+			<Size>11</Size>
+			<Description>No of Mtce Due Today</Description>
+			<DefaultValue>0</DefaultValue>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>5</FieldID>
+			<TableName>OWA_FMSETUP</TableName>
+			<Name>NoOfWO</Name>
+			<Type>2</Type>
+			<Size>11</Size>
+			<Description>No of Work Order</Description>
+			<DefaultValue>0</DefaultValue>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMSPAREPARTS</TableName>
+		<TableDescription>Fleet Spare Parts</TableDescription>
+		<Tabletype>1</Tabletype>
+		<Secondary>1</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<UserObjects>
+			<CanCancel>Y</CanCancel>
+			<CanClose>N</CanClose>
+			<CanCreateDefaultForm>N</CanCreateDefaultForm>
+			<CanDelete>Y</CanDelete>
+			<CanFind>Y</CanFind>
+			<CanLog>N</CanLog>
+			<LogTableName />
+			<CanYearTransfer>N</CanYearTransfer>
+			<ManageSeries>N</ManageSeries>
+			<Code>OWA_FMSPAREPART</Code>
+			<Name>Spare Parts</Name>
+			<ObjectType>1</ObjectType>
+			<TableName>OWA_FMSPAREPARTS</TableName>
+			<Created>N</Created>
+			<UseSequence>0</UseSequence>
+		</UserObjects>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMSPAREPARTS</TableName>
+			<Name>Qty</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Quantity</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OWA_FMSPAREPARTS</TableName>
+			<Name>Price</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Price</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>P</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMSPAREPARTS</TableName>
+			<Name>Total</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Total</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>S</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OWA_FMSPAREPARTS</TableName>
+			<Name>WarehouseCode</Name>
+			<Type>0</Type>
+			<Size>8</Size>
+			<Description>Warehouse</Description>
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>4</FieldID>
+			<TableName>OWA_FMSPAREPARTS</TableName>
+			<Name>VendorCode</Name>
+			<Type>0</Type>
+			<Size>15</Size>
+			<Description>Vendor</Description>
+			<EditSize>15</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMTIRETRACK</TableName>
+		<TableDescription>Fleet Tire Tacking</TableDescription>
+		<Tabletype>2</Tabletype>
+		<Secondary>2</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>TireID</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Tire ID</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>Make</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Make</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>Model</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Model</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>Size</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Size</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>4</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>TreadTickn</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Tread Tickness</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>5</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>TireType</Name>
+			<Type>0</Type>
+			<Size>20</Size>
+			<Description>Tire Type</Description>
+			<EditSize>20</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMTIRETRACK</TableName>
+				<FieldID>5</FieldID>
+				<IndexID>0</IndexID>
+				<Value>New</Value>
+				<Description>New</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMTIRETRACK</TableName>
+				<FieldID>5</FieldID>
+				<IndexID>1</IndexID>
+				<Value>Refurbished</Value>
+				<Description>Refurbished</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>6</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>PutInServOdo</Name>
+			<Type>2</Type>
+			<Size>11</Size>
+			<Description>Put In Serv Odom</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>7</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>PutInServDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Put In Service Date</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>8</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>TakenOutOdo</Name>
+			<Type>2</Type>
+			<Size>11</Size>
+			<Description>Taken Out of Service Odo</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>9</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>TakenOutDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Date Taken Out</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>10</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>OnVehicle</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>On Vehicle?</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMTIRETRACK</TableName>
+				<FieldID>10</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Yes</Value>
+				<Description>Yes</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMTIRETRACK</TableName>
+				<FieldID>10</FieldID>
+				<IndexID>1</IndexID>
+				<Value>No</Value>
+				<Description>No</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>11</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>VendorCode</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Vendor Code</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>12</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>Warranty</Name>
+			<Type>2</Type>
+			<Size>11</Size>
+			<Description>Warranty (Days)</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>13</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>ExptdLife</Name>
+			<Type>2</Type>
+			<Size>11</Size>
+			<Description>Expected Life (Km)</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>14</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>InvoiceNo</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Invoice No</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>15</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>InvoiceDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Invoice Date</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>16</FieldID>
+			<TableName>OWA_FMTIRETRACK</TableName>
+			<Name>Price</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Price</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>S</EditType>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMUOM</TableName>
+		<TableDescription>Fleet Unit of Measure</TableDescription>
+		<Tabletype>0</Tabletype>
+		<Secondary>0</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMUOM</TableName>
+			<Name>Type</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>UOM Type</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMUOM</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Odometer</Value>
+				<Description>Odometer</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMUOM</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>1</IndexID>
+				<Value>Period</Value>
+				<Description>Period</Description>
+			</ValidValues>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMWORKORDER</TableName>
+		<TableDescription>Fleet Work Order</TableDescription>
+		<Tabletype>3</Tabletype>
+		<Secondary>1</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<UserObjects>
+			<CanCancel>Y</CanCancel>
+			<CanClose>N</CanClose>
+			<CanCreateDefaultForm>N</CanCreateDefaultForm>
+			<CanDelete>Y</CanDelete>
+			<CanFind>N</CanFind>
+			<CanLog>N</CanLog>
+			<LogTableName />
+			<CanYearTransfer>N</CanYearTransfer>
+			<ManageSeries>N</ManageSeries>
+			<Code>FMWKORDER</Code>
+			<Name>Fleet Work Order</Name>
+			<ObjectType>3</ObjectType>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Created>N</Created>
+			<UseSequence>0</UseSequence>
+			<UserObjectsChild>
+				<Code>FMWKORDER</Code>
+				<TableName>OWA_FMWORKORDERDET</TableName>
+				<LogName />
+				<SonName>OWA_FMWORKORDERDET</SonName>
+			</UserObjectsChild>
+		</UserObjects>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>PostingDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Date Completed</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>DocumentDate</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Date Issued</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>Odometer</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Odometer</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>Status</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Status</Description>
+			<DefaultValue>Open</DefaultValue>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMWORKORDER</TableName>
+				<FieldID>3</FieldID>
+				<IndexID>0</IndexID>
+				<Value>Open</Value>
+				<Description>Open</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMWORKORDER</TableName>
+				<FieldID>3</FieldID>
+				<IndexID>1</IndexID>
+				<Value>Closed</Value>
+				<Description>Closed</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>4</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>ReportedBy</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Reported By</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>5</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>FleetID</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Vehicle ID</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>6</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>DateStarted</Name>
+			<Type>3</Type>
+			<Size>8</Size>
+			<Description>Date Started</Description>
+			<DefaultValue />
+			<EditSize>8</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+		</TableFields>
+		<TableFields>
+			<FieldID>7</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>TotalWOAmt</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Total WO Amount</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>S</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>8</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>FleetType</Name>
+			<Type>2</Type>
+			<Size>6</Size>
+			<Description>Fleet Type</Description>
+			<DefaultValue>1</DefaultValue>
+			<EditSize>1</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>9</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>ReportedByName</Name>
+			<Type>0</Type>
+			<Size>100</Size>
+			<Description>Reported by Name</Description>
+			<EditSize>100</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>10</FieldID>
+			<TableName>OWA_FMWORKORDER</TableName>
+			<Name>JobDesc</Name>
+			<Type>1</Type>
+			<Size>4</Size>
+			<Description>Job Description</Description>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+	</usertable>
+	<usertable>
+		<TableName>OWA_FMWORKORDERDET</TableName>
+		<TableDescription>Fleet Work Order Details</TableDescription>
+		<Tabletype>4</Tabletype>
+		<Secondary>2</Secondary>
+		<Created>N</Created>
+		<UseSequence>0</UseSequence>
+		<TableFields>
+			<FieldID>0</FieldID>
+			<TableName>OWA_FMWORKORDERDET</TableName>
+			<Name>WOType</Name>
+			<Type>0</Type>
+			<Size>2</Size>
+			<Description>Work Order Type</Description>
+			<DefaultValue>PM</DefaultValue>
+			<EditSize>2</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMWORKORDERDET</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>0</IndexID>
+				<Value>SV</Value>
+				<Description>Service</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMWORKORDERDET</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>1</IndexID>
+				<Value>SP</Value>
+				<Description>Spare Part</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMWORKORDERDET</TableName>
+				<FieldID>0</FieldID>
+				<IndexID>2</IndexID>
+				<Value>PM</Value>
+				<Description>Preventive Mtce</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>1</FieldID>
+			<TableName>OWA_FMWORKORDERDET</TableName>
+			<Name>WOCode</Name>
+			<Type>0</Type>
+			<Size>30</Size>
+			<Description>Work Order Code</Description>
+			<EditSize>30</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>2</FieldID>
+			<TableName>OWA_FMWORKORDERDET</TableName>
+			<Name>Qty</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Quantity</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>Q</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>3</FieldID>
+			<TableName>OWA_FMWORKORDERDET</TableName>
+			<Name>UnitPrice</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Unit Price</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>P</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>4</FieldID>
+			<TableName>OWA_FMWORKORDERDET</TableName>
+			<Name>Amount</Name>
+			<Type>4</Type>
+			<Size>16</Size>
+			<Description>Amount</Description>
+			<EditSize>16</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType>S</EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>5</FieldID>
+			<TableName>OWA_FMWORKORDERDET</TableName>
+			<Name>Description</Name>
+			<Type>0</Type>
+			<Size>100</Size>
+			<Description>Description</Description>
+			<EditSize>100</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+		<TableFields>
+			<FieldID>6</FieldID>
+			<TableName>OWA_FMWORKORDERDET</TableName>
+			<Name>PersonnelType</Name>
+			<Type>0</Type>
+			<Size>10</Size>
+			<Description>Personnel Type</Description>
+			<DefaultValue>In-House</DefaultValue>
+			<EditSize>10</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+			<ValidValues>
+				<TableName>OWA_FMWORKORDERDET</TableName>
+				<FieldID>6</FieldID>
+				<IndexID>0</IndexID>
+				<Value>In-House</Value>
+				<Description>In-House</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMWORKORDERDET</TableName>
+				<FieldID>6</FieldID>
+				<IndexID>1</IndexID>
+				<Value>Vendor</Value>
+				<Description>Vendor</Description>
+			</ValidValues>
+			<ValidValues>
+				<TableName>OWA_FMWORKORDERDET</TableName>
+				<FieldID>6</FieldID>
+				<IndexID>2</IndexID>
+				<Value>Others</Value>
+				<Description>Others</Description>
+			</ValidValues>
+		</TableFields>
+		<TableFields>
+			<FieldID>7</FieldID>
+			<TableName>OWA_FMWORKORDERDET</TableName>
+			<Name>CardCode</Name>
+			<Type>0</Type>
+			<Size>15</Size>
+			<Description>Personnel</Description>
+			<EditSize>15</EditSize>
+			<Mandatory>N</Mandatory>
+			<Created>N</Created>
+			<EditType> </EditType>
+		</TableFields>
+	</usertable>
+</Tables>

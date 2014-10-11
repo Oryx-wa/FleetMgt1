@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Oryx>
+	<Forms Name="FleetMgt.FleetSetupScreen" MenuUID="FleetMgt.FleetSetupScreen" PermID="OWA_PAY010" PermCategory="OWA_PAYOTH002"/>
+	<Forms Name="FleetMgt.Vehicle" MenuUID="FleetMgt.Vehicle" PermID="OWA_PAY010" PermCategory="OWA_PAYOTH002"/>
+	<Forms Name="FleetMgt.Equipment" MenuUID="FleetMgt.Equipment" PermID="OWA_PAY010" PermCategory="OWA_PAYOTH002"/>
+	<Forms Name="FleetMgt.WorkOrder" MenuUID="FleetMgt.WorkOrder" PermID="OWA_PAY010" PermCategory="OWA_PAYOTH002"/>
+	<Forms Name="FleetMgt.WorkOrderList" MenuUID="FleetMgt.WorkOrderList" PermID="OWA_PAY010" PermCategory="OWA_PAYOTH002"/>
+	<Forms Name="FleetMgt.Services" MenuUID="FleetMgt.Services" PermID="OWA_PAY010" PermCategory="OWA_PAYOTH002"/>
+	<Forms Name="FleetMgt.SparePart" MenuUID="FleetMgt.SparePart" PermID="OWA_PAY010" PermCategory="OWA_PAYOTH002"/>
+	<Forms Name="FleetMgt.Vendors" MenuUID="FleetMgt.Partner" PermID="OWA_PAY010" PermCategory="OWA_PAYOTH002"/>
+	<Forms Name="FleetMgt.Employee" MenuUID="FleetMgt.Employee" PermID="OWA_PAY010" PermCategory="OWA_PAYOTH002"/>
+	<Forms Name="FleetMgt.MtceShedule" MenuUID="FleetMgt.MtceShedule" PermID="OWA_PAY010" PermCategory="OWA_PAYOTH002"/>
+
+</Oryx>

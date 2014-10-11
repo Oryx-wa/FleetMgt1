@@ -1,0 +1,9 @@
+﻿Declare @FleetID nvarchar(30)
+
+select @FleetID = 'OWAPARAM1'
+
+select b.code [Equipment Code],b.U_ServiceCode [Mtce Service Code],b.U_SvrDesc [Mtce Service Name],b.U_LastMtceDate 
+[Last Mtce Date],b.U_MtceFreq [Frequency],b.U_NextMtceDate [Next Mtce Date]
+from [@OWA_FMFLEETMTCLINES] b
+where b.code=@FleetID and cast(b.[U_NextMtceDate] as varchar(12))<=cast(getdate() as varchar(12))
+

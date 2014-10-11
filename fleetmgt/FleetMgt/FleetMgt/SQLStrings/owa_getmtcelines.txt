@@ -1,0 +1,7 @@
+﻿
+select b.code [Equipment Code],b.U_ServiceCode [Mtce Service Code],b.U_SvrDesc [Mtce Service Name],b.U_LastMtceDate 
+[Last Mtce Date],b.U_MtceFreq [Frequency],b.U_NextMtceDate [Next Mtce Date],
+(select U_comment from [@OWA_FMSERVICES] c where b.U_ServiceCode=c.Code) [Job Description]
+from [@OWA_FMFLEETMTCLINES] b
+where  b.[U_NextMtceDate] <=getdate()
+

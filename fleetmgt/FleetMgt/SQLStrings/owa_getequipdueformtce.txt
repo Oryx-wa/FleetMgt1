@@ -1,0 +1,2 @@
+﻿select  distinct a.code from [@OWA_FMFLEET] a inner join [@OWA_FMFLEETMTCLINES] b
+on a.code=b.code where cast(b.[U_NextMtceDate] as varchar(12))<=cast(getdate() as varchar(12))

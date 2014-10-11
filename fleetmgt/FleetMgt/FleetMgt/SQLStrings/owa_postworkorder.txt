@@ -1,0 +1,32 @@
+﻿declare @DocEntry int
+
+select @DocEntry = OWAPARAM1
+
+declare @FleetID as nvarchar(30),@SvrCode nvarchar(30), @PostingDate as smalldatetime
+
+--get the Fleet ID
+select @FleetID=U_FleetID, @PostingDate=U_PostingDate from [@owa_fmworkorder] where DocEntry=@DocEntry
+
+declare recWorkOrderLines Cursor for
+		select U_WOCode from  [@OWA_FMWORKORDERDET] where DocEntry=@DocEntry
+open recWorkOrderLines
+Fetch from recWorkOrderLines into @SvrCode
+while @@Fetch_status=0
+begin
+		-- get the mtce line of the fleet and reset the mtce dates appropriately
+		update [@OWA_FMFLEETMTCLINES] set U_LastMtceDate=@PostingDate,
+										  U_NextMtceDate=dateadd(day,U_MtceFreq,@PostingDate)										  
+		where U_ServiceCode=@SvrCode and Code=@FleetID
+				
+  	Fetch next from recWorkOrderLines into @SvrCode
+End
+
+-- close the cursor
+CLOSE recWorkOrderLines
+DEALLOCATE recWorkOrderLines
+
+--closes the workorder 
+Update [@owa_fmworkorder] set U_Status='Closed' where DocEntry=@DocEntry
+
+select 0
+

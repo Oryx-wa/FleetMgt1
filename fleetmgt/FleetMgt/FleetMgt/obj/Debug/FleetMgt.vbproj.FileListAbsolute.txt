@@ -1,0 +1,15 @@
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\bin\Debug\FleetMgt.exe
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\bin\Debug\FleetMgt.pdb
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\bin\Debug\FleetMgt.xml
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\bin\Debug\SAPbouiCOM.dll
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\bin\Debug\SboAddOnBase.dll
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\bin\Debug\SboAddOnBase.pdb
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\bin\Debug\SboAddOnBase.xml
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\obj\Debug\FleetMgt.vbprojResolveAssemblyReference.cache
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\obj\Debug\Interop.SAPbobsCOM.dll
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\obj\Debug\FleetMgt.vbproj.ResolveComReference.cache
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\obj\Debug\FleetMgt.Resources.resources
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\obj\Debug\FleetMgt.vbproj.GenerateResource.Cache
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\obj\Debug\FleetMgt.exe
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\obj\Debug\FleetMgt.xml
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgt\FleetMgt\obj\Debug\FleetMgt.pdb

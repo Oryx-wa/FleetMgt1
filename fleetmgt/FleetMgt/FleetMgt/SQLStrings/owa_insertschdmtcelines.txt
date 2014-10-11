@@ -1,0 +1,37 @@
+﻿
+
+declare @FleetID nvarchar(30), @SchedCode nvarchar(30)
+
+select @FleetID   = 'OWAPARAM1'
+select @SchedCode = 'OWAPARAM2'
+
+
+declare @SvrCode nvarchar(30),@SvrDesc nvarchar(100),@IntrDay int,@IntrMeter int,@lineID int
+
+declare recMtceSchedLines Cursor for
+		select U_SvrCode,U_SvrDesc,U_MtceIntervalDays,U_MtceIntervalMeter from  [@OWA_FMMTCESHEDDET] where Code=@SchedCode
+open recMtceSchedLines
+Fetch from recMtceSchedLines into @SvrCode,@SvrDesc,@IntrDay,@IntrMeter
+while @@Fetch_status=0
+begin
+		--checks if already exists
+		select code from  [@OWA_FMFLEETMTCLINES] where code=@FleetID and U_ServiceCode=@SvrCode 
+		if @@rowcount=0 
+		begin
+			-- get the last Line ID
+			select top 1 @lineID=isnull(LineId,0) from [@OWA_FMFLEETMTCLINES] where Code=@FleetID order by LineID desc
+			if @lineID is null set @lineID=0		
+			-- insert records
+			insert into [@OWA_FMFLEETMTCLINES]
+			(Code,LineId,Object,U_PrevMtcShed,U_ServiceCode,U_SvrDesc,U_LastMtceDate,U_NextMtceDate,U_MtceFreq										)
+			VALUES(@FleetID,@lineID + 1,'OWAFLEET',@SchedCode,@SvrCode,@SvrDesc,getdate(),dateadd(day,@IntrDay,getdate()),@IntrDay)
+		end														
+  	Fetch next from recMtceSchedLines into @SvrCode,@SvrDesc,@IntrDay,@IntrMeter
+End
+
+-- close the cursor
+CLOSE recMtceSchedLines
+DEALLOCATE recMtceSchedLines
+
+select 0
+

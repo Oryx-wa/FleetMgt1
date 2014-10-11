@@ -1,0 +1,11 @@
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\bin\FleetMgtAddon.exe
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\bin\FleetMgtAddon.xml
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\obj\Release\AddOnInstaller.AddOnInstaller.BaseControl.resources
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\obj\Release\AddOnInstaller.AddOnInstaller.BaseForm.resources
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\obj\Release\AddOnInstaller.AddOnInstaller.InstallEndedControl.resources
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\obj\Release\AddOnInstaller.AddOnInstaller.InstallMainControl.resources
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\obj\Release\AddOnInstaller.AddOnInstaller.InstallPathControl.resources
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\obj\Release\AddOnInstaller.AddOnInstaller.UnInstallControl.resources
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\obj\Release\FleetMgtAddon.vbproj.GenerateResource.Cache
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\obj\Release\FleetMgtAddon.exe
+C:\PROGRAMS\ORYX\FleetMgt\FleetMgtAddon\FleetMgtAddon\obj\Release\FleetMgtAddon.xml

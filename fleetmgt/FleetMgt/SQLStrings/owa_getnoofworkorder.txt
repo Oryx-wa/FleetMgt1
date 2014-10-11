@@ -1,0 +1,3 @@
+﻿begin
+	select  count(code ) [kount] from  [@OWA_FMFLEETMTCLINES] where [U_NextMtceDate] <=getdate()
+end

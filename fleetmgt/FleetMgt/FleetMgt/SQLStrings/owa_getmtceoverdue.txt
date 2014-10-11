@@ -1,0 +1,4 @@
+﻿begin
+	select  count(a.code + b.U_ServiceCode) [kount] from [@OWA_FMFLEET] a inner join [@OWA_FMFLEETMTCLINES] b
+	on a.code=b.code where b.[U_NextMtceDate] <=getdate() 
+end
